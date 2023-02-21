@@ -1,0 +1,6 @@
+framework module PublicShareTestPod {
+  umbrella header "PublicShareTestPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

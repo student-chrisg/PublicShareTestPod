@@ -1,0 +1,22 @@
+{
+  "name": "PublicShareTestPod",
+  "version": "0.1.0",
+  "summary": "A short description of PublicShareTestPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/student-chrisg@gmail.com/PublicShareTestPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "student-chrisg@gmail.com": "christopher@teamblind.com"
+  },
+  "source": {
+    "git": "https://github.com/student-chrisg@gmail.com/PublicShareTestPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "PublicShareTestPod/Classes/**/*"
+}

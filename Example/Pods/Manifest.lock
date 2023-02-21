@@ -1,0 +1,16 @@
+PODS:
+  - PublicShareTestPod (0.1.0)
+
+DEPENDENCIES:
+  - PublicShareTestPod (from `../`)
+
+EXTERNAL SOURCES:
+  PublicShareTestPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PublicShareTestPod: 509a725e2c54bf00b449a40c948936e2ccf5f26e
+
+PODFILE CHECKSUM: 2b3efd19919121de273fe72c86253f55262c0a04
+
+COCOAPODS: 1.11.3
