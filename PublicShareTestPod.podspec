@@ -21,18 +21,19 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/student-chrisg/public-share-pod-test'
+  s.homepage         = 'https://github.com/student-chrisg/PublicShareTestPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'student-chrisg@gmail.com' => 'christopher@teamblind.com' }
-  s.source           = { :git => 'https://github.com/student-chrisg/public-share-pod-test.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/student-chrisg/PublicShareTestPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
   s.swift_version = "4.0"
   
-  s.source_files = 'PublicShareTestPod/Classes/**/*'
-  
+#  s.source_files = 'PublicShareTestPod/Classes/**/*'
+s.source_files = 'PublicShareTestPod/Classes/**/*'
+
   # s.resource_bundles = {
   #   'PublicShareTestPod' => ['PublicShareTestPod/Assets/*.png']
   # }
