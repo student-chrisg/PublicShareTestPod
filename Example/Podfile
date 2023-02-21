@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'PublicShareTestPod_Example' do
+  pod 'PublicShareTestPod', :path => '../'
+
+  target 'PublicShareTestPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
